@@ -107,7 +107,6 @@ class Grive(GriveGUI):
         super().authentication_window()
 
     def authentication_done(self):
-        super().authentication_done()
         print("thread killed")
         if self.grive:
             self.grive.kill()

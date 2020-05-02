@@ -167,7 +167,7 @@ class GriveGUI():
         self.entry_single_dir.config(state="disabled")
         self.btn_clear.config(command=self.clear_status)
         self.btn_stop.config(state="disabled")
-        self.root.minsize(580,290)
+        self.root.minsize(620,290)
         self.txt_status.config(bg="#424242")
         # =====================================================
 

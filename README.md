@@ -1,6 +1,16 @@
 ## <img src="icon.png" width=90> GriveGUI
 
+**Home Screen**
+
 ![](./images/home.png)
+
+
+
+**Authentication Screen**
+
+![](./images/auth_screen.png)
+
+ 
 
 
 
@@ -18,7 +28,15 @@ Video
 
 ## Installation
 
-Download from [Releases Page](https://github.com/Dishendramishra/grive-gui/releases) 
+#### :pushpin: **Dependencies:**
+
+- grive2: https://github.com/vitalif/grive2
+
+  
+
+  #### Installing GriveGUI
+
+  Download from [Releases](https://github.com/Dishendramishra/grive-gui/releases) 
 
 ```she
 sudo tar -xvf grivegui.tar.gz --directory /usr/local/bin
@@ -29,7 +47,7 @@ sudo mv /usr/local/bin/grivegui_icon.png /usr/share/icons/
 
 
 
-## Uinstall
+## Uninstall
 
 ```she
 sudo rm -rf /usr/local/bin/grivegui 
